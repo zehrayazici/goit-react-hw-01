@@ -1,0 +1,75 @@
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px auto;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.info {
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #e1e4e8;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #121620;
+  margin-bottom: 10px;
+}
+
+.tag {
+  color: #888888;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.location {
+  color: #888888;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.stats {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #f3f6f9;
+  border-top: 1px solid #e4e9f0;
+}
+
+.statItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  border-right: 1px solid #e4e9f0;
+}
+
+.statItem:last-child {
+  border-right: none;
+}
+
+.statLabel {
+  font-size: 14px;
+  color: #888888;
+  margin-bottom: 5px;
+}
+
+.statValue {
+  font-weight: 700;
+  font-size: 18px;
+  color: #121620;
+}
